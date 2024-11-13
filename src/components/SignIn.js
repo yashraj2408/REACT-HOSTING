@@ -39,7 +39,7 @@ export default function SignIn({store}) {
       email: data.get('email'),
       password: data.get('password'),
     });
-    axios.post("https://jfsd-spring-hosting-production.up.railway.app/login",{
+    axios.post("https://jfsd-spring-hosting-production-e021.up.railway.app/login",{
       email: data.get('email'),
       password: data.get('password')
     }).then((res)=>{
